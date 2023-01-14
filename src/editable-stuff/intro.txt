@@ -1,0 +1,5 @@
+I am currently a fourth-year undergrad pursuing honors in Computer Science at Indian Institue of Technology, Bombay. I am highly motivated to pursue a career in the field of software development for high-frequency trading (HFT). I am deeply interested in the areas of system design, algorithms, NLP and competitive programming. 
+
+I am passionate in solving interesting problems through brainstorming, discussing and coming up with creative solutions for complex problems. I gained invaluable experience in many aspects of technical and soft skills from writing efficient and maintainable code, to testing and optimizing performance, and also deploying systems at scale and collaborating with cross-functional teams during my summer internship as a Software Engineer at Amazon.
+
+In addition to my academic and professional pursuits, I enjoy playing sports such as badminton, volleyball and chess.

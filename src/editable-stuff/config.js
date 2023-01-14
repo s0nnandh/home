@@ -6,30 +6,30 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "Sonnandh",
   middleName: "",
-  lastName: "Shoaib",
+  lastName: "Kalaka",
   message: " Passionate about changing the world with technology. ",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
+      url: "https://github.com/s0nnandh",
     },
+    // {
+    //   image: "fa-facebook",
+    //   url: "https://www.facebook.com/hashirshoaeb",
+    // },
     {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
+      image: "fa-linkedin",
+      url: "https://www.linkedin.com/in/sonnandh/",
     },
     {
       image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
-    },
-    {
-      image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
+      url: "https://www.instagram.com/__.sonnandh.__/",
     },
     {
       image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      url: "https://twitter.com/sonnandh",
     },
   ],
 };
@@ -51,11 +51,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
-  imageSize: 375,
+  imageLink: require("../editable-stuff/profile.jpeg"),
+  imageSize: 500,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "I am a fourth-year Computer Science student at IIT Bombay with a passion for software development in High-Frequency Trading. I have experience in system design, algorithms, NLP and competitive programming. I am interested in solving challenging problems through brainstorming and collaboration. I gained valuable technical and soft skills during my internship as a software engineer at Amazon, and also stay active through sports like badminton, volleyball, and chess.",
+  resume: "https://docs.google.com/document/d/1LXd0uqABQh3ek3yLoL2XtVaMIyiKiFLf/edit?usp=sharing&ouid=102716663960137610145&rtpof=true&sd=true",
 };
 
 // PROJECTS SECTION
@@ -65,10 +65,10 @@ const about = {
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
-  heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  heading: "Key Projects",
+  gitHubUsername: "s0nnandh", //i.e."johnDoe12Gh"
+  reposLength: 0,
+  specificRepos: ["Restaurant-Management-System", "Mini-Moodle", "Cricket-Website", "NSE-Analytics-Website"],
 };
 
 // Leadership SECTION
@@ -100,14 +100,14 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
+    { name: "C/C++", value: 90 },
+    { name: "Python", value: 75 },
+    { name: "Java/Kotlin", value: 85 },
     { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Django", value: 90 },
+    { name: "Express", value: 65 },
+    { name: "Angular", value: 55 },
+    { name: "SQL", value: 80 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -126,24 +126,26 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "I'm currently looking for full-time Software Engineering opportunities at HFT firms! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+  email: "sonnandh@gmail.com",
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'Placement Coordinator',// Here Add Company Name
+      company: 'Indian Institue of Technology, Bombay',
+      companylogo: require('../assets/img/iitb.png'),
+      date: 'Aug 2022 – Present',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
-    },
+      role: 'Software Engineering Intern',// Here Add Company Name
+      company: 'Amazon',
+      companylogo: require('../assets/img/amazon.webp'),
+      date: 'May 2022 – July 2022',
+    }
   ]
 }
 
